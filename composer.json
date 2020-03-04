@@ -1,0 +1,17 @@
+{
+    "name": "autoloader/cfg",
+    "description": "Autoloader using Composer.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "this.destroyer",
+            "email": "thunderstorm.lightning@inbox.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    }
+}
